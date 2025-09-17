@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Егор Байтер - Лучший Telegram-канал про NFT-подарки</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Элегантные шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Lightbox animation */
+        #lightbox {
+            transition: opacity 0.3s ease;
+        }
+        #lightbox-img {
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.9); }
+            to { opacity: 1; transform: scale(1); }
+        }
+        
+        /* Новые шрифты */
+        .font-heading {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .font-subheading {
+            font-family: 'Outfit', sans-serif;
+        }
+        .font-body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .hero-bg {
+            background-image: url('http://static.photos/technology/1200x630/42');
+            background-size: cover;
+            background-position: center;
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #f63bea 0%, #8B5CF6 50%, #2e88e8 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        /* Плавные анимации кнопок */
+        .btn-smooth {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-smooth:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.4);
+        }
+        
+        .btn-gradient {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-gradient:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px -5px rgba(139, 92, 246, 0.3);
+        }
+        
+        .btn-light {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-light:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 20px -5px rgba(255, 255, 255, 0.2);
+        }
+        
+        /* Плавное появление элементов */
+        .fade-in {
+            animation: fadeInUp 0.6s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Hero Section -->
+    <section class="hero-bg relative py-20 md:py-32 px-4">
+        <div class="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div class="relative max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-6xl font-heading font-bold text-white mb-6" data-aos="fade-up">
+                Твой шанс получить <span class="gradient-text">ценный NFT-подарок</span>
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-200 mb-10 font-body" data-aos="fade-up" data-aos-delay="100">
+                Присоединяйся к каналу Егора Байтера — #1 каналу, где он дарит дорогие NFT подписчикам за простые действия.
+            </p>
+            <a href="https://t.me/palitra_tg" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-full text-lg btn-gradient" data-aos="fade-up" data-aos-delay="200">
+                Участвовать в розыгрыше!
+                <i data-feather="arrow-right" class="ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-16 md:py-24 px-4 max-w-6xl mx-auto">
+        <h2 class="text-3xl md:text-4xl font-heading font-bold text-center mb-16" data-aos="fade-up">
+            Как получить <span class="gradient-text">NFT-подарок?</span> Будь активен!
+        </h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl p-6 shadow-lg card-hover" data-aos="fade-up" data-aos-delay="100">
+                <div class="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-4">
+                    <i data-feather="repeat" class="text-blue-600 w-8 h-8"></i>
+                </div>
+                <h3 class="text-xl font-subheading font-bold mb-3">Репост поста</h3>
+                <p class="text-gray-600 mb-4 font-body">Сделай репост записи канала и получи шанс выиграть.</p>
+                <a href="https://t.me/palitra_tg/790" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium flex items-center font-body">
+                    Пример поста <i data-feather="arrow-up-right" class="w-4 h-4 ml-1"></i>
+                </a>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl p-6 shadow-lg card-hover" data-aos="fade-up" data-aos-delay="200">
+                <div class="w-16 h-16 bg-purple-100 rounded-full flex items-center justify-center mb-4">
+                    <i data-feather="thumbs-up" class="text-purple-600 w-8 h-8"></i>
+                </div>
+                <h3 class="text-xl font-subheading font-bold mb-3">Реакции под постом</h3>
+                <p class="text-gray-600 mb-4 font-body">Оставь реакцию под постом и получи подарок.</p>
+                <a href="https://t.me/palitra_tg/809" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium flex items-center font-body">
+                    Пример поста <i data-feather="arrow-up-right" class="w-4 h-4 ml-1"></i>
+                </a>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="bg-white rounded-xl p-6 shadow-lg card-hover" data-aos="fade-up" data-aos-delay="300">
+                <div class="w-16 h-16 bg-pink-100 rounded-full flex items-center justify-center mb-4">
+                    <i data-feather="award" class="text-pink-600 w-8 h-8"></i>
+                </div>
+                <h3 class="text-xl font-subheading font-bold mb-3">Конкурсы</h3>
+                <p class="text-gray-600 mb-4 font-body">Участвуй в конкурсах. Например: "Чей комментарий продержится 5 минут — подарю 20 NFT-ракет!"</p>
+                <a href="https://t.me/palitra_tg/812" target="_blank" rel="noopener noreferrer" class="text-blue-500 font-medium flex items-center font-body">
+                    Пример поста <i data-feather="arrow-up-right" class="w-4 h-4 ml-1"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proof Section -->
+    <section class="py-16 md:py-24 px-4 bg-gray-100">
+        <div class="max-w-6xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold text-center mb-16" data-aos="fade-up">
+                Не веришь? Смотри сюда! <span class="gradient-text">Реальные подарки реальным людям</span>
+            </h2>
+            
+            <!-- Image Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-10" data-aos="fade-up">
+                <!-- Phone screenshot proportions (9:16) -->
+                <a href="http://static.photos/technology/1200x2133/1" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/1.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/2" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/2.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/3" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/3.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/4" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/4.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/5" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/5.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/6" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/6.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/7" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/7.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/8" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/8.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/9" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/9.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+                <a href="http://static.photos/technology/1200x2133/10" class="aspect-[9/16] w-full transition-all duration-300 hover:scale-105 hover:z-10 hover:shadow-2xl rounded-lg overflow-hidden" data-lightbox="proofs">
+                    <img src="images/10.jpg" alt="Winner screenshot" class="w-full h-full object-cover">
+                </a>
+            </div>
+            
+            <p class="text-center text-xl text-gray-700 mb-10 font-body" data-aos="fade-up">
+                Это лишь некоторые из наших победителей. <span class="font-bold gradient-text">Ты можешь стать следующим!</span>
+            </p>
+            
+            <div class="text-center" data-aos="fade-up">
+                <a href="https://t.me/palitra_tg" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-8 py-4 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-bold rounded-full text-lg btn-gradient">
+                    Хочу получить NFT!
+                    <i data-feather="gift" class="ml-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mega Raffle Section -->
+    <section class="py-16 md:py-24 px-4 bg-gradient-to-r from-purple-900 to-blue-900 text-white">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6" data-aos="fade-up">
+                 ⚠️ ГРАНДИОЗНЫЙ РОЗЫГРЫШ УЖЕ СЕГОДНЯ! ️
+            </h2>
+            <p class="text-xl md:text-2xl mb-10 font-body" data-aos="fade-up" data-aos-delay="100">
+                Главное событие месяца уже здесь. Не упусти шанс получить уникальный и ценный NFT-подарок. Все детали — в закрепленном посте канала!
+            </p>
+            <a href="https://t.me/palitra_tg/843" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-8 py-4 bg-white text-purple-900 font-bold rounded-full text-lg btn-light" data-aos="fade-up" data-aos-delay="200">
+                Перейти в канал и участвовать!
+                <i data-feather="arrow-right" class="ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-16 px-4 bg-gray-900 text-white">
+        <div class="max-w-6xl mx-auto text-center">
+            <div class="flex flex-col items-center justify-center mb-8">
+                <div class="flex items-center mb-6">
+                    <i data-feather="send" class="w-10 h-10 text-blue-400 mr-3"></i>
+                    <span class="text-3xl font-heading font-bold">Егор Байтер</span>
+                </div>
+                
+                <h3 class="text-2xl md:text-3xl font-heading font-bold mb-6 text-blue-300 fade-in">
+                    🎉 ПРИСОЕДИНЯЙСЯ К НАШЕМУ СООБЩЕСТВУ ПОБЕДИТЕЛЕЙ ПРЯМО СЕЙЧАС! 🎉
+                </h3>
+                
+                <p class="text-lg md:text-xl text-gray-300 mb-8 font-body max-w-2xl">
+                    Не упусти свой шанс стать частью нашего растущего сообщества и получить ценные NFT-подарки!
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="https://t.me/palitra_tg" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-8 py-4 bg-blue-500 text-white font-bold rounded-full text-lg hover:bg-blue-600 transition-colors btn-smooth">
+                        <i data-feather="send" class="w-6 h-6 mr-2"></i>
+                        Перейти в канал
+                    </a>
+                    
+                    <a href="https://t.me/palitra_tg/843" target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-8 py-4 bg-purple-500 text-white font-bold rounded-full text-lg hover:bg-purple-600 transition-colors btn-smooth">
+                        <i data-feather="gift" class="w-6 h-6 mr-2"></i>
+                        Участвовать в розыгрыше
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-6">
+                <p class="text-gray-400 font-body">
+                    © 2023 Егор Байтер. Все права защищены.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="fixed inset-0 bg-black bg-opacity-90 z-50 hidden items-center justify-center">
+        <div class="relative max-w-4xl w-full p-4">
+            <img id="lightbox-img" src="" alt="" class="max-h-screen mx-auto">
+            <button id="close-lightbox" class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300">&times;</button>
+        </div>
+    </div>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            easing: 'ease-out-cubic'
+        });
+        feather.replace();
+
+        // Lightbox functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const closeBtn = document.getElementById('close-lightbox');
+            
+            // Open lightbox when clicking on any image
+            document.querySelectorAll('[data-lightbox="proofs"]').forEach(link => {
+                link.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    lightboxImg.src = this.href;
+                    lightbox.classList.remove('hidden');
+                    lightbox.classList.add('flex');
+                    document.body.style.overflow = 'hidden';
+                });
+            });
+            
+            // Close lightbox
+            closeBtn.addEventListener('click', function() {
+                lightbox.classList.add('hidden');
+                lightbox.classList.remove('flex');
+                document.body.style.overflow = '';
+            });
+            
+            // Close when clicking outside image
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    lightbox.classList.add('hidden');
+                    lightbox.classList.remove('flex');
+                    document.body.style.overflow = '';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
